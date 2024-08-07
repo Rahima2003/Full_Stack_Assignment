@@ -54,7 +54,9 @@ pokemon-app/
 The client directory contains the React application. It includes:
 
 **public/:** Public assets and the index.html file.
+
 **src/:** React components, styles, and other frontend code.
+
 **package.json:** Dependencies and scripts for the React application.
 
 **Server**
@@ -62,20 +64,26 @@ The client directory contains the React application. It includes:
 The server directory contains the Express.js server. It includes:
 
 **index.js:** The main server file with API endpoints.
+
 **data.json:** A JSON file to store user data.
+
 **package.json:** Dependencies and scripts for the server.
 
 
 **Express Server Setup:**
 
 Imports necessary modules: express, body-parser, cors, fs, node-fetch.
+
 Initializes the Express app and sets up middleware for JSON parsing and CORS.
+
 Reads initial data from data.json.
 
 **API Endpoints:**
 
 GET /api/pokemon: Fetches a list of Pokemon from the PokeAPI.
+
 GET /api/pokemon/:name/abilities: Fetches abilities for a specific Pokemon from the PokeAPI.
+
 CRUD operations for user data: Handles fetching, adding, updating, and deleting user data.
 
 

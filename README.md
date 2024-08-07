@@ -139,7 +139,7 @@ app.get('/api/pokemon', async (req, res) => {
         
     }
     
-});
+    });
 
 Endpoint: /api/pokemon
 
@@ -169,7 +169,7 @@ app.get('/api/pokemon/:name/abilities', async (req, res) => {
         
     }
     
-});
+    });
 
 Endpoint: /api/pokemon/:name/abilities
 
@@ -257,7 +257,7 @@ app.put('/api/users/:ownerName', (req, res) => {
         
     }
     
-});
+    });
 
 Endpoint: /api/users/:ownerName
 
@@ -285,7 +285,7 @@ app.delete('/api/users/:ownerName', (req, res) => {
     
     res.status(204).end();
     
-});
+    });
 
 Endpoint: /api/users/:ownerName
 
